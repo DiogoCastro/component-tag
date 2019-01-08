@@ -1,10 +1,12 @@
 .form-class {
     text-align: center;
+    width: 80vw;
 }
 
 .form-class .title {
     display: block;
     font-size: 30px;
+    margin-bottom: 6px;
 }
 
 .form-class .subtitle {
@@ -12,4 +14,22 @@
     font-size: 14px;
     color: var(--color-first);
     font-weight: bold;
+    margin-bottom: var(--spacing-md);
+}
+
+.form-class .input {
+    background-color: transparent;
+    color: #000;
+    border-bottom: 2px solid var(--color-second);
+    height: 2em;
+    font-weight: bold;
+    width: 100%;
+}
+.form-class .input::selection {
+    background-color: var(--color-first);
+    color: var(--color-zero);
+}
+.form-class .input:focus,
+.form-class .input:hover {
+    border-bottom-color: var(--color-first);
 }
