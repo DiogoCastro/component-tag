@@ -1,0 +1,15 @@
+.form-class {
+    text-align: center;
+}
+
+.form-class .title {
+    display: block;
+    font-size: 30px;
+}
+
+.form-class .subtitle {
+    display: block;
+    font-size: 14px;
+    color: var(--color-first);
+    font-weight: bold;
+}
